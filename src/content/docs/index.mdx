@@ -1,36 +1,36 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: SUAP Docs
+description: Conectando estudantes e servidores ao SUAP
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Parabéns por chegar até aqui!
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Example Guide
+    - text: Acessar
       link: /guides/example/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
+    - text: Acesse o SUAP do IFRR
+      link: https://suap.ifrr.edu.br/
       icon: external
       variant: minimal
+
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Menções honrosas
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="CAADS" icon="pencil">
+		Este site foi desenvolvido por [CAADS](https://www.instagram.com/caads.ifrr/), o Centro Acadêmico de Análise e Desenvolvimento de Sistemas do IFRR.
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Johan" icon="add-document">
+		Johan é o desenvolvedor principal do site. Você pode encontrá-lo no Github
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="Astro" icon="rocket">
+		A estrutura do site é feita com [Astro](https://astro.build/), um framework moderno para construção de sites rápidos.
+		A documentação é feita com [Starlight](https://withastro.com/integrations/starlight/), uma integração de documentação para Astro.
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+
 </CardGrid>
