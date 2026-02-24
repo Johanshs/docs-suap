@@ -7,6 +7,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Manual do SUAP',
+			customCss: ['./src/styles/custom.css'],
 			description: 'Documentação do Sistema Unificado de Administração Pública - SUAP - IFRR',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }, 
 					 { icon: 'instagram', label: 'Instagram', href: 'https://www.instagram.com/caads.ifrr/' }],
